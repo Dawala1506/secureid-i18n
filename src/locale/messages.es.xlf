@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <!-- Greeting -->
+      <trans-unit id="greeting" datatype="html">
+        <source>Hello</source>
+        <target>Hola</target>
+      </trans-unit>
+
+      <!-- Welcome Message -->
+      <trans-unit id="welcome" datatype="html">
+        <source>Welcome to my app!</source>
+        <target>¡Bienvenido a mi aplicación!</target>
+      </trans-unit>
+
+      <!-- About Page Title -->
+      <trans-unit id="aboutTitle" datatype="html">
+        <source>About Us</source>
+        <target>Sobre Nosotros</target>
+      </trans-unit>
+
+      <!-- Contact Page Title -->
+      <trans-unit id="contactTitle" datatype="html">
+        <source>Contact Us</source>
+        <target>Contáctenos</target>
+      </trans-unit>
+
+      <!-- Home Page Title -->
+      <trans-unit id="homeTitle" datatype="html">
+        <source>Home</source>
+        <target>Inicio</target>
+      </trans-unit>
+
+      <!-- Login Button -->
+      <trans-unit id="loginButton" datatype="html">
+        <source>Login</source>
+        <target>Iniciar Sesión</target>
+      </trans-unit>
+
+      <!-- Sign Up Button -->
+      <trans-unit id="signupButton" datatype="html">
+        <source>Sign Up</source>
+        <target>Registrarse</target>
+      </trans-unit>
+
+      <!-- Profile Page Title -->
+      <trans-unit id="profileTitle" datatype="html">
+        <source>Profile</source>
+        <target>Perfil</target>
+      </trans-unit>
+
+      <!-- Settings Page Title -->
+      <trans-unit id="settingsTitle" datatype="html">
+        <source>Settings</source>
+        <target>Configuración</target>
+      </trans-unit>
+
+      <!-- Logout Button -->
+      <trans-unit id="logoutButton" datatype="html">
+        <source>Logout</source>
+        <target>Cerrar Sesión</target>
+      </trans-unit>
+
+      <!-- Error Message -->
+      <trans-unit id="errorMessage" datatype="html">
+        <source>An error occurred. Please try again.</source>
+        <target>Ocurrió un error. Por favor, inténtelo de nuevo.</target>
+      </trans-unit>
+
+      <!-- Success Message -->
+      <trans-unit id="successMessage" datatype="html">
+        <source>Operation completed successfully!</source>
+        <target>¡Operación completada con éxito!</target>
+      </trans-unit>
+
+      <!-- Search Placeholder -->
+      <trans-unit id="searchPlaceholder" datatype="html">
+        <source>Search...</source>
+        <target>Buscar...</target>
+      </trans-unit>
+
+      <!-- Save Button -->
+      <trans-unit id="saveButton" datatype="html">
+        <source>Save</source>
+        <target>Guardar</target>
+      </trans-unit>
+
+      <!-- Cancel Button -->
+      <trans-unit id="cancelButton" datatype="html">
+        <source>Cancel</source>
+        <target>Cancelar</target>
+      </trans-unit>
+
+      <!-- Delete Confirmation -->
+      <trans-unit id="deleteConfirmation" datatype="html">
+        <source>Are you sure you want to delete this?</source>
+        <target>¿Estás seguro de que quieres eliminar esto?</target>
+      </trans-unit>
+
+      <!-- Loading Message -->
+      <trans-unit id="loadingMessage" datatype="html">
+        <source>Loading...</source>
+        <target>Cargando...</target>
+      </trans-unit>
+
+      <!-- No Data Message -->
+      <trans-unit id="noDataMessage" datatype="html">
+        <source>No data available.</source>
+        <target>No hay datos disponibles.</target>
+      </trans-unit>
+
+      <!-- Thank You Message -->
+      <trans-unit id="thankYouMessage" datatype="html">
+        <source>Thank you for using our app!</source>
+        <target>¡Gracias por usar nuestra aplicación!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
