@@ -10,6 +10,13 @@
           "style": "scss"
         }
       },
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "fr": "src/assets/i18n/fr.json",
+          "es": "src/assets/i18n/es.json"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -103,5 +110,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "053f01a7-940b-4e94-8c2a-c88e5462aff0"
   }
 }
