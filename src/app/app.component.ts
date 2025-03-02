@@ -20,13 +20,13 @@ export class AppComponent {
  getFlagImage(): string {
   switch (this.currentLanguage) {
     case 'en':
-      return 'assets/flags/uk.svg'; // UK flag
+      return 'assets/flags/uk.svg'; 
     case 'es':
-      return 'assets/flags/spain.svg'; // Spain flag
+      return 'assets/flags/spain.svg';
     case 'fr':
-      return 'assets/flags/france.svg'; // France flag
+      return 'assets/flags/france.svg'; 
     default:
-      return 'assets/flags/uk.svg'; // Default to UK flag
+      return 'assets/flags/uk.svg'; 
   }
 }
 
@@ -34,6 +34,6 @@ export class AppComponent {
     const target = event.target as HTMLSelectElement;
     this.currentLanguage = target.value;
     this.translateService.use(target.value);
-    this.cdr.detectChanges(); // Force change detection
+    this.cdr.detectChanges(); 
   }
 }

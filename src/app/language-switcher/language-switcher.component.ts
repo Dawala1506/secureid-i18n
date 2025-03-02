@@ -16,16 +16,5 @@ export class LanguageSwitcherComponent {
     this.languageService.setLanguage(language);
   }
 
-  // getFlagImage(): string {
-  //   switch (this.currentLanguage) {
-  //     case 'en':
-  //       return 'assets/flags/uk.svg'; // UK flag
-  //     case 'es':
-  //       return 'assets/flags/spain.svg'; // Spain flag
-  //     case 'fr':
-  //       return 'assets/flags/france.svg'; // France flag
-  //     default:
-  //       return 'assets/flags/uk.svg'; // Default to UK flag
-  //   }
-  // }
+ 
 }
