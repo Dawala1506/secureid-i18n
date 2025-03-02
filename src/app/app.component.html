@@ -1,4 +1,4 @@
-<!-- <h1>{{"greeting" | translate}}</h1> -->
+<!-- 
 
 <h1>{{ 'greeting' | translate }}</h1>
 <p>{{ 'welcome' | translate }}</p>
@@ -6,4 +6,27 @@
   <option value="en">English</option>
   <option value="es">Español</option>
   <option value="fr">Français</option>
-</select>
+</select> -->
+
+
+<div class="container">
+  <div class="card">
+    <!-- Flag at the top right corner -->
+    <div class="flag">
+      <img [src]="getFlagImage()" alt="Country Flag" />
+    </div>
+    <h1>{{ 'greeting' | translate }}</h1>
+    <p>{{ 'welcome' | translate }}</p>
+    <div class="language-switcher">
+      <select (change)="changeLanguage($event)">
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+      </select>
+    </div>
+  </div>
+  <div class="footer">
+    <p>If you have any questions, suggestions or complaints concerning our localisation efforts,</p>
+    <p>you can always contact us. We'd love to hear from you!</p>
+  </div>
+</div>

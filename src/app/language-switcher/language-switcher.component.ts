@@ -7,6 +7,7 @@ import { LanguageService } from '../services/language.service';
   styleUrls: ['./language-switcher.component.scss'],
 })
 export class LanguageSwitcherComponent {
+  currentLanguage: string = 'en';
   constructor(private languageService: LanguageService) {}
 
   changeLanguage(event: Event) {
@@ -14,4 +15,17 @@ export class LanguageSwitcherComponent {
     const language = target.value;
     this.languageService.setLanguage(language);
   }
+
+  // getFlagImage(): string {
+  //   switch (this.currentLanguage) {
+  //     case 'en':
+  //       return 'assets/flags/uk.svg'; // UK flag
+  //     case 'es':
+  //       return 'assets/flags/spain.svg'; // Spain flag
+  //     case 'fr':
+  //       return 'assets/flags/france.svg'; // France flag
+  //     default:
+  //       return 'assets/flags/uk.svg'; // Default to UK flag
+  //   }
+  // }
 }
